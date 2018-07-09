@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>{% block title %}{% endblock title %} - Battlesheep</title>
+</head>
+<body>
+    <div>
+        <a href="/">Home</a><br/>
+        <a href="/games">Games</a><br/>
+        <a href="/games/random/">New Game</a><br/>
+        <a href="/admin">Admin</a><br/>
+    </div>
+
+    <br/><br/>
+
+    <div>
+    {% block body %}
+    {% endblock body %}
+    </div>
+</body>
+</html>
